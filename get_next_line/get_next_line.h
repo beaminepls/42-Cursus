@@ -6,7 +6,7 @@
 /*   By: jmarsh <jmarsh@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/14 16:08:45 by jmarsh            #+#    #+#             */
-/*   Updated: 2022/09/14 16:23:24 by jmarsh           ###   ########.fr       */
+/*   Updated: 2022/09/14 16:43:52 by jmarsh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,9 @@
 # include <stdlib.h>
 # include <string.h>
 
-#ifndef BUFFER_SIZE
-# define BUFFER_SIZE 42000
-#endif
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 42000
+# endif
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
