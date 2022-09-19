@@ -1,2 +1,1 @@
-42 work
-easy
+42 work difficult
