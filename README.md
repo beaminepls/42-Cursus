@@ -1,2 +1,2 @@
-42 work
+42 work \n
 easy
